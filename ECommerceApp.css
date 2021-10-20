@@ -1,0 +1,208 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Montserrat:wght@600&display=swap');
+
+
+/* Custom Variables */
+:root{
+  --hover-background-color : rgb(29, 26, 26);  
+  --font-para :  'Montserrat', sans-serif;
+  --font-heading : 'Baloo 2', cursive;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar Hover Effect */
+
+.nav-hover:hover{
+  color: white;
+  background: #44fd54;
+  transition-duration: 200ms;
+  border-radius: 5px;
+}
+
+/* Submit Button */
+
+#submitBtn{
+    color: #44fd54;
+    border: 0.5px solid #44fd54;
+}
+
+#submitBtn:hover{
+    color: white;
+    background: #44fd54;
+    transition-duration: 200ms;
+}
+
+
+/* Progress Bar */
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+    position: fixed;
+    z-index: 30;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 8px;
+    background: #44fd54;
+    width: 0%;
+  }
+
+/* Upper Section */
+
+/* Heading Top */
+
+#headingTop{
+    text-align: center;
+    font-family: var(--font-para);
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #44fd54;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+/* Carousel Upper Section */
+
+.carousel{
+    margin: 20px 100px;
+}
+
+.carousel img{
+    border-radius: 30px;
+
+}
+
+.carousel h5{
+    font-family: var(--font-heading);
+    
+}
+
+.carousel p{
+    font-family: var(--font-para);
+}
+
+/* Heading Bottom */
+
+#headingBottom{
+    text-align: center;
+    font-family: var(--font-para);
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #44fd54;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
+/* Products */
+
+.products{
+    display: flex;
+}
+
+.card{
+    /* display: flex; */
+    margin-bottom: 30px;
+    margin-left: 37px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+}
+
+/* Testimonals */
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+
+
+/* Responsive Design */
+
+@media only screen and (max-width: 600px){
+    
+    #headingTop{
+        font-size: 19px;
+    }
+
+    .carousel{
+        margin: 25px 20px;
+    }
+
+    .products{
+        margin-left: -35px;
+    }
+    
+    .card{
+        margin-top: 20px;
+        width: 100px;
+    }
+};
+    
